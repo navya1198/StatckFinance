@@ -1,0 +1,18 @@
+1. Whitespaces are allowed in first name and last name
+Example:     y (starting whitespaces should be removed automatically)
+
+2. User should be provided to edit email address. If user has entered wrong email and proceeds, 
+there's no other ways to change email id and hence user will not be able to proceed further.
+It completly blocks the user with the popup saying "Please verify your email ID to continue. etc"
+
+3. Cancel button or back button should be introduced in the popups
+
+4. Getting same OTP twice. OTP should always be different.
+
+5. Proper message is not shown when user enters invalid OTP
+
+6. Not receiving OTP in email, hence user will not be able to explore the app. Its blocking in the home page itself.
+
+7. No option to go back from OTP page or any other pages. If the user wants to login with gmail, he cannot go back and do nothing.
+
+8. If the app is closed and reopened, then page still lands on otp page (Blocker)
